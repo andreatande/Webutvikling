@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Oblig 1</title>
+    <link rel="stylesheet" type="text/css" href="stilark.css">
+    <script>
+
+    </script>
+</head>
+
+<body>
+
+    <div class="content"> </div>
+
+    <header class="header">
+        <h1>Oblig 1 i webutvikling</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="artikkel.html">Oppgave 2</a></li>
+                <li><a href="innhold-vs-design.html">Oppgave 3</a></li>
+                <li><a href="webserver.html">Oppgave 4</a></li>
+                <li><a href="semantikk.html">Oppgave 5</a></li>
+                <li><a href="stilark.css">Oppgave 6</a></li>
+                <li><a href="box-modellen.html">Oppgave 7</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Webserver</h2>
+        <section>
+            <article>
+                <h3>Hva er en webserver?</h3>
+                <time datetime="2018.09.19">19.09.2018</time>
+                <p>
+                    Webserver kan referere til maskinvare eller programvare. På maskinvaresiden er en webserver en
+                    datamaskin som lagrer webserverprogramvare og et nettsteds komponentfiler.
+                    For eksempel HTML-dokumenter, bilder, CSS stilark og JavaScript-filer. På programvaresiden
+                    inneholder en webserver flere deler som styrer hvordan nettbrukere får tilgang til vertsfiler,
+                    minst en HTTP-server.
+                    En HTTP-server er et program som forstår nettadresser (webadresser) og HTTP (protokollen som
+                    nettleseren din bruker til å vise nettsider).
+                    Når en nettleser trenger en fil som er vert på en webserver, ber nettleseren filen via HTTP.
+                    Når forespørselen når den riktige webserveren (maskinvare), aksepterer HTTP-serveren (programvaren)
+                    forespørselen, finner det forespurte dokumentet og sender det tilbake til nettleseren.
+                    <b>I praksis:</b> når du åpner datamaskinen din og legger inn en nettadresse i en nettleser som for
+                    eksempel Firefox eller Chrome, sender nettleseren en forespørsel ut til Internett og ber om å se
+                    nettsiden som du skrev inn.
+                    Webserveren er programmet eller maskinen som svarer på denne forespørselen, og leverer innholdet på
+                    siden tilbake til deg. Om dokumentet ikke blir funnet vises det et <b>404</b> svar.
+
+                </p>
+            </article>
+
+            <article>
+                <p>
+                    For å publisere et nettsted trenger du enten en statisk eller en dynamisk webserver. En <b>statisk
+                    webserver</b> består av en datamaskin (maskinvare) med en HTTP-server (programvare). Vi kaller
+                    det <i>statisk</i> fordi serveren sender sine vertsfiler til nettleseren din.
+                    En <b>dynamisk webserver</b> består av en statisk webserver pluss ekstra programvare, oftest en
+                    applikasjonsserver og en database. Vi kaller det <i>dynamisk</i> fordi applikasjonsserveren
+                    oppdaterer de verste filene før de sendes til nettleseren via HTTP-serveren.
+                    Den vanligste webserverprogramvaren i dag er Apache. Denne programvaren håndterer mer enn
+                    halvparten av alle nettsteder som eksisterer i dag. Mange utviklere av nettbaserte applikasjoner og
+                    teknologier bruker Apache som standardmiljø når de designer nye produkter. Den nest vanligste er
+                    Internet Information Services (IIS), utgitt av Microsoft.
+
+                </p>
+                <ul>
+                    <li><a href="https://www.quackit.com/web_servers/tutorial/web_servers_examples.cfm">Webservere -
+                            eksempler</a></li>
+                    <li><a href="https://snl.no/webserver">SSN om webservere</a></li>
+                    <li><a href="https://www.fastwebhost.in/blog/what-is-web-server-and-different-types-of-web-servers/">Hva
+                            er en webserver og ulike typer</a></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<time datetime="2018">2018</time> - Andrea Emilie Johnsen Tande</p>
+        <p><a href="mailto:andrea.e.tande@hiof.no">andrea.e.tande@hiof.no</a></p>
+    </footer>
+
+</html>
+</body>

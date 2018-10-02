@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Oblig 1</title>
+    <link rel="stylesheet" type="text/css" href="stilark.css">
+    <script>
+
+    </script>
+</head>
+
+<body>
+
+    <div class="content"> </div>
+
+    <header class="header">
+        <h1>Oblig 1 i webutvikling</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="artikkel.html">Oppgave 2</a></li>
+                <li><a href="innhold-vs-design.html">Oppgave 3</a></li>
+                <li><a href="webserver.html">Oppgave 4</a></li>
+                <li><a href="semantikk.html">Oppgave 5</a></li>
+                <li><a href="stilark.css">Oppgave 6</a></li>
+                <li><a href="box-modellen.html">Oppgave 7</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Semantikk</h2>
+        <section>
+            <article>
+                <h3>Hva er semantikk?</h3>
+                <time datetime="2018.09.19">19.09.2018</time>
+                <p>
+                    Semantisk HTML eller semantisk markering er HTML som introduserer mening til nettsiden. Det
+                    refererer til ideen om at hele HTML-oppslaget ditt skal formidle den underliggende meningen med
+                    innholdet ditt, ikke utseende. Det
+                    er et helt sett med elementer som er laget for det formålet med å legge til mer mening i
+                    utformingen av nettsiden din.
+                    <br>Noen eksempler på disse er:
+                    <ul>
+                        <li>header</li>
+                        <li>nav</li>
+                        <li>article</li>
+                        <li>aside</li>
+                        <li>footer</li>
+                    </ul>
+                </p>
+                <p>
+                    Section elementet representerer ett snitt av et dokument eller en applikasjon. En seksjon, i denne
+                    sammenheng, er en tematisk grupperingav innhold.
+                    Hver section bør identifiseres, typisk ved å inkludere en overskrift (h1-h6 element) som et
+                    section-element barn. Eksempl på en seksjon kan være
+                    kapitler. Et nettsteds hjemmeside kan deles inn i sekjsoner for en introduksjon, nyhetsartikkel og
+                    kontaktinformasjon.
+                </p>
+
+                <h3>Hvorfor bruke semantikk?</h3>
+                <p>
+                    Div elementet har ingen spesiell betydning i det hele tatt. Det representerer sine barn. Den kan
+                    brukes sammen med class eller id attributter
+                    for å markere semantikk som er felles for en gruppe av påfølgende elementer. Elementet oppfordres
+                    sterkt til å se på som siste utvei. Bruk av mer hensiktsmessige elementer i stedet for div elementet 
+                    fører til bedre tilgjengelighet for leserne, gjør det lettere for søkemotorer,
+                    skjermlesere og andre maskiner for å identifisere de ulike delene av nettsiden, og det blir enklere
+                    ved likeholdsevne for forfatter. Ved å bruke HTML-koder som har betydning, oppretter du sider som gir 
+                    mer informasjon enn ved å bare omgjøre alt med (div) tagger.
+                </P>
+                <p>
+                    <h3>Kort hva de ulike semantiske taggene brukes til</h3>
+                    <ul>
+                        <li>(main) er for innhold på din side. Bruk main bare en gang per side, og sett den direkte
+                            innvendig (body).</li>
+                        <li>(article) omhandler en blokk med relatert innhold som er fornuftig til siden, ofte plassert
+                            som barn av section </li>
+                        <li>(section) ligner på (article), men det er mer for å gruppere sammen en funksjonalitet som
+                            for eksempel ett sett med
+                            artikkeloverskrifter. Det anses best å starte hver seksjon med en overskrift.</li>
+                        <li>(aside) inneholder innhold som ikke er direkte relatert til hovedinnholdet, men kan gi
+                            tilleggsinformasjon indirekte.
+                            Kan for eksempel være forfatterbiografi eller et bilde.</li>
+                        <li>(header) representerer en gruppe innledende innhold og ofte den globale overskriften til
+                            nettsiden.</li>
+                        <li>(nav) inneholder hovednavigasjonfunksjonen for siden, og nettsidens meny.</li>
+                        <li>(footer) representerer en gruppe sluttinnhold for en side. Her pleier ofte navn, dato og
+                            kontaktinformasjon å stå.</li>
+                    </ul>
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<time datetime="2018">2018</time> - Andrea Emilie Johnsen Tande</p>
+        <p><a href="mailto:andrea.e.tande@hiof.no">andrea.e.tande@hiof.no</a></p>
+    </footer>
+
+</html>
+</body>

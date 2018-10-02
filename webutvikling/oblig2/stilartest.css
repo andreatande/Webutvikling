@@ -1,0 +1,19 @@
+
+}
+main{
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+    background: #e82b69;
+}
+aside{
+    grid-column: 1 / 2;
+    background: #fac24a;
+}
+.navbar{
+    grid-column: 1 / 2;
+    background: #8ae348;
+}
+footer{
+    grid-column: span 3;
+    background: #a56dda;
+}
